@@ -1,0 +1,29 @@
+{
+  "name": "the-hairy-potter",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashville-software-school/the-hairy-potter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nashville-software-school/the-hairy-potter/issues"
+  },
+  "homepage": "https://github.com/nashville-software-school/the-hairy-potter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "puppeteer": "^3.0.0"
+  }
+}
