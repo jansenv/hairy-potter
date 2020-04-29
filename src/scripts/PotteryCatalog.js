@@ -5,10 +5,10 @@ export const usePottery = () => catalog.slice()
 export const toSellOrNotToSell = p => {
     if (!p.cracked) {
         if (p.weight >= 6) {
-            p.price = 50
+            p.price = 40
         }
         else {
-            p.price = 10
+            p.price = 20
         }
         catalog.push(p)
     }
